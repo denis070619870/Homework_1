@@ -1,8 +1,8 @@
 ﻿// Показать числа от -N до N
 
-Console.WriteLine("Введите число от которого будт показаны все четные числа: ");
+Console.WriteLine("Введите число от которого будт показаны все числа: ");
 int userNumber1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите число до которого будт показаны все четные числа: ");
+Console.WriteLine("Введите число до которого будт показаны все числа: ");
 int userNumber2 = int.Parse(Console.ReadLine());
 
 int count = userNumber1;
