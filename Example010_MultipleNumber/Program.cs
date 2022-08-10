@@ -6,8 +6,6 @@ Console.Write(a);
 Console.WriteLine("Ввеите число, на которое нужно проверить кратность выбранного числа: ");
 int b = int.Parse(Console.ReadLine());
 
-//int Balance = a % b;
-//return Balance;
 
 if (a % b == 0)
 {
@@ -15,5 +13,5 @@ if (a % b == 0)
 }
 else
 {
-     Console.Write("Число: " + " " + a + " " + "не кратно числу" +" " + b + "." +" " + "Остаток от деления: "); // + " " + Balance
+     Console.Write("Число: " + " " + a + " " + "не кратно числу" +" " + b + "." +" " + "Остаток от деления: " + " " + a % b);
 }
